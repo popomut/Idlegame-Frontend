@@ -37,5 +37,4 @@ externalPort = 80
 [deployment]
 deploymentTarget = "cloudrun"
 build = ["npm", "run", "build"]
-publicDir = "dist"
-run = ["sh", "-c", "go run main.go"]
+run = ["sh", "-c", "npm run preview"]
